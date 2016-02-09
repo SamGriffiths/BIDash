@@ -84,6 +84,7 @@ public class Controller implements Initializable {
             buildGraph(data);
         });
 
+
         TableColumn<SalesData,Integer> yearCol = new TableColumn<>();
         yearCol.setText("Year");
         yearCol.setCellValueFactory(new PropertyValueFactory<SalesData, Integer>("Year"));
